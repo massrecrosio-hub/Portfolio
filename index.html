@@ -478,7 +478,8 @@
   }
 
   /* items with real photos */
-  .photo-item.has-photo { border: none; cursor: default; }
+  .photo-item.has-photo { border: none; cursor: pointer; }
+  .photo-item a { display: block; text-decoration: none; color: inherit; }
 
   /* items without photos */
   .photo-item:not(.has-photo) {
@@ -922,56 +923,79 @@
 
     <!-- Photo 1 : Cadreur à la caméra — portrait 2:3 -->
     <div class="photo-item has-photo reveal">
-      <img src="assets/photo-1.jpg" alt="Cadreur derrière une caméra Tilta sur plateau">
-      <div class="photo-caption-overlay">
-        <div class="photo-caption-title">Sur le plateau</div>
-        <div class="photo-caption-tag">Tournage · Sony α7III</div>
-      </div>
+      <a href="https://adobe.ly/42nXrxz" target="_blank" rel="noopener" aria-label="Album Tournage Lightroom">
+        <img src="assets/photo-1.jpg" alt="Cadreur derrière une caméra Tilta sur plateau">
+        <div class="photo-caption-overlay">
+          <div class="photo-caption-title">Sur le plateau</div>
+          <div class="photo-caption-tag">Tournage · Sony α7III</div>
+        </div>
+      </a>
     </div>
 
     <!-- Photo 2 : Métro Berlin — paysage 3:2 -->
     <div class="photo-item has-photo reveal">
-      <img src="assets/photo-2.jpg" alt="Métro U-Bahn Berlin station Hönow">
-      <div class="photo-caption-overlay">
-        <div class="photo-caption-title">U-Bahn, Berlin</div>
-        <div class="photo-caption-tag">Urbain · Sony α7III</div>
-      </div>
+      <a href="https://adobe.ly/4vXQK2z" target="_blank" rel="noopener" aria-label="Album Urbain Lightroom">
+        <img src="assets/photo-2.jpg" alt="Métro U-Bahn Berlin station Hönow">
+        <div class="photo-caption-overlay">
+          <div class="photo-caption-title">U-Bahn, Berlin</div>
+          <div class="photo-caption-tag">Urbain · Sony α7III</div>
+        </div>
+      </a>
     </div>
 
     <!-- Photo 3 : Silhouette chanteuse NB — portrait 2:3 -->
     <div class="photo-item has-photo reveal">
-      <img src="assets/photo-3.jpg" alt="Silhouette d'une chanteuse sur scène en noir et blanc">
-      <div class="photo-caption-overlay">
-        <div class="photo-caption-title">Silhouette</div>
-        <div class="photo-caption-tag">Concert · Sony α7III</div>
-      </div>
+      <a href="https://adobe.ly/4n1AdH1" target="_blank" rel="noopener" aria-label="Album Concert Lightroom">
+        <img src="assets/photo-3.jpg" alt="Silhouette d'une chanteuse sur scène en noir et blanc">
+        <div class="photo-caption-overlay">
+          <div class="photo-caption-title">Silhouette</div>
+          <div class="photo-caption-tag">Concert · Sony α7III</div>
+        </div>
+      </a>
     </div>
 
     <!-- Photo 4 : Concert longue expo — portrait 2:3 -->
     <div class="photo-item has-photo reveal">
-      <img src="assets/photo-4.jpg" alt="Artiste sur scène aux Disquaires, longue exposition">
-      <div class="photo-caption-overlay">
-        <div class="photo-caption-title">Les Disquaires</div>
-        <div class="photo-caption-tag">Longue expo · Sony α7III</div>
-      </div>
+      <a href="https://adobe.ly/42nXrxz" target="_blank" rel="noopener" aria-label="Album Tournage Lightroom">
+        <img src="assets/photo-4.jpg" alt="Artiste sur scène aux Disquaires, longue exposition">
+        <div class="photo-caption-overlay">
+          <div class="photo-caption-title">Les Disquaires</div>
+          <div class="photo-caption-tag">Longue expo · Sony α7III</div>
+        </div>
+      </a>
     </div>
 
     <!-- Photo 5 : Concert scène — paysage 3:2 -->
     <div class="photo-item has-photo reveal">
-      <img src="assets/photo-5.jpg" alt="Artiste au micro sur scène, lumière néon bleu">
-      <div class="photo-caption-overlay">
-        <div class="photo-caption-title">Live</div>
-        <div class="photo-caption-tag">Concert · Sony α7III</div>
-      </div>
+      <a href="https://adobe.ly/4n1AdH1" target="_blank" rel="noopener" aria-label="Album Concert Lightroom">
+        <img src="assets/photo-5.jpg" alt="Artiste au micro sur scène, lumière néon bleu">
+        <div class="photo-caption-overlay">
+          <div class="photo-caption-title">Live</div>
+          <div class="photo-caption-tag">Concert · Sony α7III</div>
+        </div>
+      </a>
     </div>
 
     <!-- Photo 6 : Portrait mode NB — portrait -->
     <div class="photo-item has-photo reveal">
-      <img src="assets/photo-6.jpg" alt="Portrait mode noir et blanc devant une porte haussmannienne">
-      <div class="photo-caption-overlay">
-        <div class="photo-caption-title">Haussmann</div>
-        <div class="photo-caption-tag">Portrait · Sony α7III</div>
-      </div>
+      <a href="https://adobe.ly/4cYZHjB" target="_blank" rel="noopener" aria-label="Album Lifestyle Lightroom">
+        <img src="assets/photo-6.jpg" alt="Portrait mode noir et blanc devant une porte haussmannienne">
+        <div class="photo-caption-overlay">
+          <div class="photo-caption-title">Haussmann</div>
+          <div class="photo-caption-tag">Lifestyle · Sony α7III</div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Photo 7 : Yoga/Sport — portrait -->
+    <div class="photo-item has-photo reveal">
+      <a href="https://adobe.ly/48uIT2z" target="_blank" rel="noopener" aria-label="Album Sport Lightroom">
+        <img src="assets/photo-7.jpg" alt="Séance de yoga en salle, lumière bleue">
+        <div class="photo-caption-overlay">
+          <div class="photo-caption-title">Flow</div>
+          <div class="photo-caption-tag">Sport · Sony α7III</div>
+        </div>
+      </a>
     </div>
 
   </div>
@@ -981,7 +1005,7 @@
 <section id="about">
   <div class="about-stats reveal">
     <div class="stat">
-      <span class="stat-num">7+</span>
+      <span class="stat-num">+7</span>
       <span class="stat-label">Productions coordonnées</span>
     </div>
     <div class="stat">
